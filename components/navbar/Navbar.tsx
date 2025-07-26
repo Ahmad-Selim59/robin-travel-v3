@@ -15,14 +15,14 @@ export default function Navbar() {
         <LogoBackground />
         
         {/* The logo on top */}
-        <div className="absolute inset-0 z-10 h-full flex items-center justify-center">
-          <Link href="/" className="flex items-center">
+        <div className="absolute inset-0 z-10 h-full flex items-center justify-center pr-8">
+          <Link href="/" className="flex items-center justify-center">
             <Image 
               src="/logo.png" 
               alt="Logo" 
-              width={300} 
-              height={200}
-              className="hover:opacity-80 transition-opacity w-50 h-50 object-contain" 
+              width={210} 
+              height={210}
+              className="hover:opacity-80 transition-opacity object-contain" 
             />
           </Link>
         </div>
