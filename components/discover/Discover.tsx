@@ -17,7 +17,7 @@ export default function Discover() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Discover our Indonesia tours</h2>
           <div className="space-y-4 text-gray-600">
             <p>
-              A <strong>customized tour of Indonesia</strong>: a dream trip! This vast country is so captivating, you can explore all sorts of destinations with your tailor-made tour. Hop on a bike and ride past rice paddies, venture into the jungle, and finish on a white sandy beach. Explore the islands with your private driver. We're happy to advise you, based on our own experience, on the most beautiful islands of Indonesia. Below, see our favorite sample island tours. Or how about a combination of multiple islands or a trip to <a href="#" className="text-blue-500 hover:underline">Malaysia</a>? Anything is possible.
+              A <strong>customized tour of Indonesia</strong>: a dream trip! This vast country is so captivating, you can explore all sorts of destinations with your tailor-made tour. Hop on a bike and ride past rice paddies, venture into the jungle, and finish on a white sandy beach. Explore the islands with your private driver. We&apos;re happy to advise you, based on our own experience, on the most beautiful islands of Indonesia. Below, see our favorite sample island tours. Or how about a combination of multiple islands or a trip to <a href="#" className="text-blue-500 hover:underline">Malaysia</a>? Anything is possible.
             </p>
             <p>
               We are happy to help you put together an unforgettable tour to Indonesia, based on your wishes and our suggestions from our own travel experiences.
@@ -58,7 +58,7 @@ export default function Discover() {
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3"><CheckIcon /> Rice fields and temples</li>
               <li className="flex items-center gap-3"><CheckIcon /> Orangutans in the jungle</li>
-              <li className="flex items-center gap-3"><CheckIcon /> Bounty beaches on the Gili's</li>
+              <li className="flex items-center gap-3"><CheckIcon /> Bounty beaches on the Gili&apos;s</li>
               <li className="flex items-center gap-3"><CheckIcon /> Rituals of Torajaland</li>
               <li className="flex items-center gap-3"><CheckIcon /> Komodo dragons near Flores</li>
             </ul>
@@ -72,7 +72,7 @@ export default function Discover() {
               />
               <div>
                 <p className="font-semibold">Do you have any questions?</p>
-                <p className="font-semibold">I'm happy to help!</p>
+                <p className="font-semibold">I&apos;m happy to help!</p>
                 <p className="mt-1">Chantal</p>
               </div>
             </div>
