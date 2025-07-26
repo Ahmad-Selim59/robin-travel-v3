@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --navbar-bg: #0342ad;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
