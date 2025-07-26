@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "location": "Bali",
+    "title": "Bali's mountains and coasts",
+    "price": 850,
+    "duration": "13 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Seminyak", "Ubud", "Sidemen", "Lovina", "Sanur"],
+    "highlights": [
+      "Relax on different beaches",
+      "Spot dolphins", 
+      "Rice terraces and mountains"
+    ],
+    "flightIncluded": false
+  },
+  {
+    "id": 2,
+    "location": "Java",
+    "title": "Java's cultural treasures",
+    "price": 920,
+    "duration": "12 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Jakarta", "Yogyakarta", "Borobudur", "Solo", "Malang"],
+    "highlights": [
+      "Ancient temples of Borobudur",
+      "Traditional Javanese culture",
+      "Volcanic landscapes"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 3,
+    "location": "Sumatra",
+    "title": "Sumatra wildlife adventure",
+    "price": 1150,
+    "duration": "15 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Medan", "Bukit Lawang", "Lake Toba", "Berastagi", "Padang"],
+    "highlights": [
+      "Orangutan encounters",
+      "Lake Toba volcanic crater",
+      "Batak cultural experiences"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 4,
+    "location": "Sulawesi",
+    "title": "Sulawesi highlands and seas",
+    "price": 1380,
+    "duration": "16 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Makassar", "Tana Toraja", "Rantepao", "Bunaken", "Manado"],
+    "highlights": [
+      "Torajan funeral ceremonies",
+      "Traditional cliff graves",
+      "World-class diving"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 5,
+    "location": "Lombok",
+    "title": "Lombok beaches and culture",
+    "price": 780,
+    "duration": "10 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Senggigi", "Gili Islands", "Sasak villages", "Mount Rinjani"],
+    "highlights": [
+      "Pristine Gili Islands",
+      "Traditional Sasak culture",
+      "Mount Rinjani trekking"
+    ],
+    "flightIncluded": false
+  },
+  {
+    "id": 6,
+    "location": "The Lesser Sunda Islands",
+    "title": "Flores and Komodo adventure",
+    "price": 1680,
+    "duration": "18 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Labuan Bajo", "Komodo Island", "Flores", "Ende", "Maumere"],
+    "highlights": [
+      "Komodo dragons in wild",
+      "Three-colored crater lakes",
+      "Traditional villages"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 7,
+    "location": "Kalimantan",
+    "title": "Borneo jungle expedition",
+    "price": 1450,
+    "duration": "14 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Balikpapan", "Samarinda", "Mahakam River", "Dayak villages"],
+    "highlights": [
+      "River cruising adventures",
+      "Dayak tribal culture",
+      "Orangutan rehabilitation"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 8,
+    "location": "The Moluccas",
+    "title": "Spice Islands discovery",
+    "price": 1820,
+    "duration": "20 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Ambon", "Banda Islands", "Ternate", "Tidore", "Seram"],
+    "highlights": [
+      "Historic spice trade routes",
+      "Pristine coral reefs",
+      "Traditional fishing villages"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 9,
+    "location": "Irian Jaya - Papua",
+    "title": "Papua cultural immersion",
+    "price": 2150,
+    "duration": "21 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Jayapura", "Wamena", "Baliem Valley", "Sentani Lake"],
+    "highlights": [
+      "Dani tribe encounters",
+      "Baliem Valley trekking",
+      "Traditional tribal ceremonies"
+    ],
+    "flightIncluded": true
+  }
+] 
