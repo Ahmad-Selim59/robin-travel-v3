@@ -1,5 +1,9 @@
+import Hero from '../components/hero/Hero';
+
 export default function Home() {
   return (
-    <div className="text-red-900"><h1>hello</h1></div>
+    <main>
+      <Hero />
+    </main>
   );
 }
