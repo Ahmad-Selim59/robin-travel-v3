@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full flex items-center relative h-36" style={{ background: "var(--navbar-bg)" }}>
+    <nav className="w-full flex items-center relative h-16" style={{ background: "var(--navbar-bg)" }}>
       {/* Left section with the correct background */}
       <div className="relative w-[20%] h-full">
         <LogoBackground />
@@ -22,14 +22,14 @@ export default function Navbar() {
               alt="Logo" 
               width={300} 
               height={200}
-              className="hover:opacity-80 transition-opacity w-32 h-32 object-contain" 
+              className="hover:opacity-80 transition-opacity w-50 h-50 object-contain" 
             />
           </Link>
         </div>
       </div>
       
       {/* Right section with navigation */}
-      <div className="flex-1 flex items-center justify-between px-6 py-3">
+      <div className="flex-1 flex items-center justify-between px-6 py-2">
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center justify-between w-full text-white font-medium">
           {/* All items are direct children, spaced out equally by the parent container */}
@@ -50,7 +50,7 @@ strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
             <span className="mr-2">📞</span>0299-475083 
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
           </div>
-          <button className="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-4 lg:px-6 rounded-full transition-colors text-sm lg:text-base">
+          <button className="bg-orange-400 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-full transition-colors text-sm">
             Request a travel proposal
           </button>
         </div>
@@ -69,7 +69,7 @@ strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="absolute top-36 left-0 w-full bg-white shadow-lg lg:hidden z-50">
+        <div className="absolute top-16 left-0 w-full bg-white shadow-lg lg:hidden z-50">
           <div className="py-4 px-6 space-y-4">
             <div className="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors text-gray-800">
               Destinations <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

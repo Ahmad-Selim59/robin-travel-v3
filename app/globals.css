@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --navbar-bg: #0342ad;
+  --navbar-bg: #003f5c;
 }
 
 @tailwind base;

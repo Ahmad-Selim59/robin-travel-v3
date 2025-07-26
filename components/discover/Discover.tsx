@@ -53,7 +53,7 @@ export default function Discover() {
 
         {/* Right Column */}
         <div className="md:w-5/12">
-          <div className="rounded-xl p-8 text-white" style={{ backgroundColor: '#19c2c2' }}>
+          <div className="rounded-xl p-8 text-white" style={{ backgroundColor: '#2ec4b6' }}>
             <h3 className="text-2xl font-bold mb-6">Indonesia with MyIndoTravel</h3>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3"><CheckIcon /> Rice fields and temples</li>
