@@ -122,16 +122,6 @@ export default function Trips() {
                   <div className="text-lg font-bold">{trip.duration.split(' ')[0]}</div>
                   <div className="text-sm">to dawn</div>
                 </div>
-
-                {/* Action Buttons */}
-                <div className="absolute top-4 right-4 flex gap-2">
-                  <button className="bg-white p-2 rounded-full shadow">
-                    <LocationIcon />
-                  </button>
-                  <button className="bg-white p-2 rounded-full shadow">
-                    <HeartIcon />
-                  </button>
-                </div>
               </div>
 
               {/* Content Section */}
@@ -164,17 +154,19 @@ export default function Trips() {
                 </div>
 
                 {/* Price and CTA */}
-                <div className="flex justify-between items-center">
-                  <div>
+                <div className="flex justify-between items-end mt-4">
+                  <div className="flex-1 pr-4">
                     <div className="text-sm text-gray-600">From</div>
                     <div className="text-2xl font-bold text-gray-800">€ {trip.price} per person</div>
                     <div className="text-xs text-gray-500">
                       Flight {trip.flightIncluded ? 'included' : 'can be booked optionally'}
                     </div>
                   </div>
-                  <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition-colors">
-                    View this tour
-                  </button>
+                  <div className="flex-shrink-0">
+                    <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition-colors whitespace-nowrap">
+                      View this tour
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
