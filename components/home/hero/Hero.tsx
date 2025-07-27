@@ -33,27 +33,41 @@ export default function Hero() {
     originalSlides[0] // Clone of first slide
   ];
 
-  // Auto-advance carousel every 5 seconds
+  // Auto-advance carousel every 3 seconds
   useEffect(() => {
     const timer = setInterval(() => {
-      nextSlide();
-    }, 5000);
+      if (!isTransitioning) {
+        setIsTransitioning(true);
+        setCurrentSlide(prev => prev + 1);
+        
+        setTimeout(() => {
+          setIsTransitioning(false);
+        }, 500);
+      }
+    }, 3000);
 
     return () => clearInterval(timer);
-  }, [currentSlide]); // Reset timer whenever currentSlide changes
+  }, [currentSlide, isTransitioning]); // Reset timer when currentSlide changes (manual navigation)
+
+  // Handle infinite loop jumps
+  useEffect(() => {
+    if (currentSlide === slides.length - 1 && !isTransitioning) {
+      // We're at the cloned first slide, jump to real first slide
+      setTimeout(() => {
+        setCurrentSlide(1);
+      }, 500);
+    }
+  }, [currentSlide, isTransitioning, slides.length]);
 
   const nextSlide = () => {
     if (isTransitioning) return;
     
     setIsTransitioning(true);
-    setCurrentSlide(prev => prev + 1);
+    const newSlide = currentSlide + 1;
+    setCurrentSlide(newSlide);
     
     setTimeout(() => {
       setIsTransitioning(false);
-      // If we're at the cloned first slide, jump to the real first slide
-      if (currentSlide + 1 === slides.length - 1) {
-        setCurrentSlide(1);
-      }
     }, 500);
   };
 
@@ -61,12 +75,13 @@ export default function Hero() {
     if (isTransitioning) return;
     
     setIsTransitioning(true);
-    setCurrentSlide(prev => prev - 1);
+    const newSlide = currentSlide - 1;
+    setCurrentSlide(newSlide);
     
     setTimeout(() => {
       setIsTransitioning(false);
       // If we're at the cloned last slide, jump to the real last slide
-      if (currentSlide - 1 === 0) {
+      if (newSlide === 0) {
         setCurrentSlide(originalSlides.length);
       }
     }, 500);
