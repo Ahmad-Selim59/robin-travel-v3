@@ -65,10 +65,10 @@ export default function Navbar() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center justify-between w-full text-white font-medium">
           {/* All items are direct children, spaced out equally by the parent container */}
-          <div className="flex items-center gap-2 cursor-pointer hover:text-gray-200 transition-colors">
+          <Link href="/destinations" className="flex items-center gap-2 cursor-pointer hover:text-gray-200 transition-colors">
             Destinations 
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-          </div>
+          </Link>
           <div className="flex items-center gap-2 cursor-pointer hover:text-gray-200 transition-colors">
             Inspiration 
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
@@ -103,9 +103,9 @@ strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-lg lg:hidden z-50">
           <div className="py-4 px-6 space-y-4">
-            <div className="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors text-gray-800">
+            <Link href="/destinations" className="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors text-gray-800">
               Destinations <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-            </div>
+            </Link>
             <div className="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors text-gray-800">
               Inspiration <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
             </div>

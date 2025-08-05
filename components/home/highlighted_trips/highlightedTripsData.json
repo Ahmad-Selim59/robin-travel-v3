@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "location": "Java & Bali",
+    "title": "Cultural Java and paradise Bali",
+    "price": 1380,
+    "duration": "16 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Jakarta", "Yogyakarta", "Borobudur", "Ubud", "Seminyak"],
+    "highlights": [
+      "Ancient temples of Borobudur and Prambanan",
+      "Traditional batik workshops in Yogyakarta", 
+      "Rice terraces and cultural villages in Ubud"
+    ],
+    "flightIncluded": true
+  },
+  {
+    "id": 2,
+    "location": "Lombok & Gili Islands",
+    "title": "Lombok beaches and pristine Gili Islands",
+    "price": 980,
+    "duration": "12 days",
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Senggigi", "Gili Islands", "Sasak villages", "Mount Rinjani"],
+    "highlights": [
+      "Pristine Gili Islands with crystal clear waters",
+      "Traditional Sasak culture experiences",
+      "Mount Rinjani trekking adventure"
+    ],
+    "flightIncluded": false
+  },
+  {
+    "id": 3,
+    "location": "Flores & Komodo",
+    "title": "Flores adventure and Komodo dragons",
+    "price": 1680,
+    "duration": "14 days", 
+    "image": "/indo_kids.jpg",
+    "itinerary": ["Labuan Bajo", "Komodo Island", "Flores", "Ende", "Maumere"],
+    "highlights": [
+      "Komodo dragons in their natural habitat",
+      "Three-colored crater lakes of Kelimutu",
+      "Traditional villages and local cultures"
+    ],
+    "flightIncluded": true
+  }
+] 
