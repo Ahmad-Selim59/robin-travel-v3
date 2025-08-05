@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import tripsData from './tripsData.json';
 import { generateSlug } from '../../utils/slugify';
 
@@ -26,8 +27,18 @@ const CheckIcon = () => (
 );
 
 export default function Trips() {
+  const searchParams = useSearchParams();
+  const locationParam = searchParams.get('location');
+  
   const [selectedLocation, setSelectedLocation] = useState<string>('Island combinations');
   const [priceSort, setPriceSort] = useState<'asc' | 'desc' | null>(null);
+
+  // Set initial location from URL parameter
+  useEffect(() => {
+    if (locationParam) {
+      setSelectedLocation(locationParam);
+    }
+  }, [locationParam]);
 
   // Get unique locations for filter buttons
   const locations = ['Island combinations', ...Array.from(new Set(tripsData.map(trip => trip.location)))];
