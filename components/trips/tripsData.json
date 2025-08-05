@@ -6,6 +6,7 @@
     "price": 850,
     "duration": "13 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Seminyak", "Ubud", "Sidemen", "Lovina", "Sanur"],
     "highlights": [
       "Relax on different beaches",
@@ -21,6 +22,7 @@
     "price": 920,
     "duration": "12 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Jakarta", "Yogyakarta", "Borobudur", "Solo", "Malang"],
     "highlights": [
       "Ancient temples of Borobudur",
@@ -36,6 +38,7 @@
     "price": 1150,
     "duration": "15 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Medan", "Bukit Lawang", "Lake Toba", "Berastagi", "Padang"],
     "highlights": [
       "Orangutan encounters",
@@ -51,6 +54,7 @@
     "price": 1380,
     "duration": "16 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Makassar", "Tana Toraja", "Rantepao", "Bunaken", "Manado"],
     "highlights": [
       "Torajan funeral ceremonies",
@@ -66,6 +70,7 @@
     "price": 780,
     "duration": "10 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Senggigi", "Gili Islands", "Sasak villages", "Mount Rinjani"],
     "highlights": [
       "Pristine Gili Islands",
@@ -81,6 +86,7 @@
     "price": 1680,
     "duration": "18 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Labuan Bajo", "Komodo Island", "Flores", "Ende", "Maumere"],
     "highlights": [
       "Komodo dragons in wild",
@@ -96,6 +102,7 @@
     "price": 1450,
     "duration": "14 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Balikpapan", "Samarinda", "Mahakam River", "Dayak villages"],
     "highlights": [
       "River cruising adventures",
@@ -111,6 +118,7 @@
     "price": 1820,
     "duration": "20 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Ambon", "Banda Islands", "Ternate", "Tidore", "Seram"],
     "highlights": [
       "Historic spice trade routes",
@@ -126,6 +134,7 @@
     "price": 2150,
     "duration": "21 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Jayapura", "Wamena", "Baliem Valley", "Sentani Lake"],
     "highlights": [
       "Dani tribe encounters",

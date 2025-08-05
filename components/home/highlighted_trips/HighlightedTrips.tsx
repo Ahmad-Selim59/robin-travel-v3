@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import highlightedTripsData from './highlightedTripsData.json';
+import { generateSlug } from '../../../utils/slugify';
 
 interface Trip {
   id: number;
@@ -12,6 +13,7 @@ interface Trip {
   price: number;
   duration: string;
   image: string;
+  header_image: string;
   itinerary: string[];
   highlights: string[];
   flightIncluded: boolean;
@@ -99,9 +101,11 @@ export default function HighlightedTrips() {
                     </div>
                   </div>
                   <div className="flex-shrink-0">
-                    <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition-colors whitespace-nowrap">
-                      View this tour
-                    </button>
+                    <Link href={`/trip/${generateSlug(trip.title)}`}>
+                      <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition-colors whitespace-nowrap">
+                        View this tour
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

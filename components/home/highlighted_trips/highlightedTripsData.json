@@ -6,6 +6,7 @@
     "price": 1380,
     "duration": "16 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Jakarta", "Yogyakarta", "Borobudur", "Ubud", "Seminyak"],
     "highlights": [
       "Ancient temples of Borobudur and Prambanan",
@@ -21,6 +22,7 @@
     "price": 980,
     "duration": "12 days",
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Senggigi", "Gili Islands", "Sasak villages", "Mount Rinjani"],
     "highlights": [
       "Pristine Gili Islands with crystal clear waters",
@@ -36,6 +38,7 @@
     "price": 1680,
     "duration": "14 days", 
     "image": "/indo_kids.jpg",
+    "header_image": "/indo_kids.jpg",
     "itinerary": ["Labuan Bajo", "Komodo Island", "Flores", "Ende", "Maumere"],
     "highlights": [
       "Komodo dragons in their natural habitat",
