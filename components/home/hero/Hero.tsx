@@ -10,17 +10,17 @@ export default function Hero() {
 
   const originalSlides = [
     {
-      image: "/indo_kids.jpg",
+      image: "https://i.imgur.com/sEjgtwQ.jpeg",
       alt: "Children in Indonesia",
       title: "Indonesia travels"
     },
     {
-      image: "/black_ops.jpg", 
+      image: "https://i.imgur.com/Ve8R17Y.jpeg", 
       alt: "Black Ops Adventure",
       title: "Adventure travels"
     },
     {
-      image: "/logo.png", 
+      image: "https://i.imgur.com/vvJC2bw.jpeg", 
       alt: "Logo Adventure",
       title: "Logo travels"
     }
