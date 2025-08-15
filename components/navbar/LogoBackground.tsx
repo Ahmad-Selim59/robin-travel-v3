@@ -7,7 +7,7 @@ export default function LogoBackground() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M0,0 L85,0 C95,12.5 95,37.5 85,50 L0,50 Z"
+        d="M0,0 L90,0 C93,12.5 93,37.5 90,50 L0,50 Z"
         fill="white"
       />
     </svg>

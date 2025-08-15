@@ -62,7 +62,7 @@ export default function Navbar() {
       style={{ background: "var(--navbar-bg)" }}
     >
       {/* Left section with the correct background */}
-      <div className="relative w-[20%] h-full">
+      <div className="relative w-[30%] h-full">
         <LogoBackground />
         
         {/* The logo on top */}
@@ -80,9 +80,9 @@ export default function Navbar() {
       </div>
       
       {/* Right section with navigation */}
-      <div className="flex-1 flex items-center justify-between px-6 py-2">
+      <div className="flex-1 flex items-center px-6 py-2">
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center justify-between w-full text-white font-medium">
+        <div className="hidden md:flex items-center gap-8 text-white font-medium">
           {/* Destinations Dropdown */}
           <div className="relative" ref={dropdownRef}>
             <div 
