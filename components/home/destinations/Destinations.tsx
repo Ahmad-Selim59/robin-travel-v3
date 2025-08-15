@@ -29,7 +29,7 @@ export default function Destinations() {
               {/* Image */}
               <div className="relative h-64 md:h-72">
                 <Image
-                  src={`/${destination.image}`}
+                  src={destination.image.startsWith('http') ? destination.image : `/${destination.image}`}
                   alt={destination.name}
                   fill
                   style={{ objectFit: 'cover' }}

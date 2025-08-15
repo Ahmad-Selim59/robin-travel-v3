@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Bali",
-    "image": "indo_kids.jpg",
+    "image": "https://i.imgur.com/WAMAXoJ.jpeg",
     "itinerary": [
       "Denpasar",
       "Ubud Rice Terraces",
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "name": "Sumatra",
-    "image": "indo_kids.jpg",
+    "image": "https://i.imgur.com/z3qox9A.jpeg",
     "itinerary": [
       "Medan",
       "Lake Toba",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "name": "Sulawesi",
-    "image": "indo_kids.jpg",
+    "image": "https://i.imgur.com/SaVLZz9.jpeg",
     "itinerary": [
       "Makassar",
       "Tana Toraja",
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "name": "Kalimantan",
-    "image": "indo_kids.jpg",
+    "image": "https://i.imgur.com/Or0M9uW.jpeg",
     "itinerary": [
       "Banjarmasin",
       "Tanjung Puting",
